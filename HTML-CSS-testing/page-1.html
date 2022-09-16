@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="styles/page-1-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top-bar">
+    <img src="img/white plane.png" class="logo">
+    <p class="name">Easy Flight</p>
+    <div><p class="head-1">Find your Next Adventure</p></div>
+    </div>
+    <div class="selection-menu">
+      <input type="text" placeholder="From" class="textbox">
+      <input type="text" placeholder="To" class="textbox">
+      <select name="trip" id="trip" class="trip-menu">
+        <option value="select trip">Select Trip</option>
+        <option value="round">Round</option>
+        <option value="one way">One Way</option>
+      </select>
+      <div class="date-div">
+      <label for="depart-date">Departure Date &#x25BC;</label>
+      <input type="date" class="date" name="depart-date">
+      </div>
+      <div class="date-div" id="date-2">
+      <label for="return-date">Return Date &#x25BC;</label>
+      <input type="date" class="date" name="return-date">
+      </div>
+      <input type="button" value="Search for Flights" class="search-button">
+  </body>
+  <style>
+    body {background-image: url(img/4806091.jpg);}
+  </style>
+</html>

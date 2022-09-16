@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(255,255,255,0.5);
+  background-blend-mode: lighten;
+  margin: 0px;
+}
+
+p {
+  font-family: Arial;
+  text-align: center;
+}
+
+.top-bar {
+  width: 100%;
+  height: 128px;
+  background-color: rgb(45,35,100);
+  vertical-align: middle;
+}
+
+.name {
+  font-family: 'montserrat';
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-size: 48px;
+  font-weight: lighter;
+  margin: 0px;
+}
+
+.logo{
+  height: 128px;
+  margin: 0px;
+  vertical-align: middle;
+}
+
+.head-1 {
+    font-family: 'montserrat';
+    font-weight: 400;
+    font-size: 60px;
+    margin: 32px;
+    color: rgb(45,35,100);
+}
+
+.container {
+  background-color: transparent;
+  position: relative;
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+}
+
+.flight-card {
+  background-color: white;
+  padding: 32px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+}
+
+.text, .buttons {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.buttons {margin-left: 96px;}
+
+.text {margin-right: 96px;}
+
+.button {
+    width: 200px;
+    height: 128px;
+    background-color: rgb(16,52,166);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.15s;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: white;
+    color: rgb(16,52,166);
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(16,52,166);
+}
+  
+.button:active {
+    background-color: rgba(45,35,100,0.4);
+}
+
+.class-name {
+    font-size: 24px;
+    font-family: 'montserrat';
+    margin: 2px;
+    color: goldenrod;
+    transition: all 0.15s;
+}
+
+.price {
+    font-size: 42px;
+    font-weight: lighter;
+    font-family: 'montserrat';
+    margin: 2px;
+}
+.colored {color: rgb(16,52,166);}
+
+.city-names {
+    font-size: 36px;
+    font-family: 'montserrat';
+    text-align: left;
+    margin: 10px;
+}
+
+.tab {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.time {
+    text-align: left;
+    margin-left: 10px;
+}

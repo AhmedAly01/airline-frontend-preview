@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(255,255,255,0.5);
+  background-blend-mode: lighten;
+  margin: 0px;
+}
+
+p {
+  font-family: Arial;
+  text-align: center;
+}
+
+label {
+  font-family: Arial;
+  margin: 0px;
+  color: rgb(16,52,166);
+}
+
+.top-bar {
+  width: 100%;
+  height: 128px;
+  background-color: rgb(45,35,100);
+  vertical-align: middle;
+}
+
+.name {
+  font-family: 'montserrat';
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-size: 48px;
+  font-weight: lighter;
+  margin: 0px;
+}
+
+.logo{
+  height: 128px;
+  margin: 0px;
+  vertical-align: middle;
+}
+
+.head-1 {
+  font-family: 'montserrat';
+  font-weight: 400;
+  font-size: 60px;
+  margin: 32px;
+  color: rgb(45,35,100);
+}
+
+.selection-menu {
+  background-color: white;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  top: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+}
+
+.textbox,
+.trip-menu,
+.search-button,
+.date {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  width: 200px;
+  border: 1px;
+  border-color: rgb(200,200,200);
+  border-style: solid;
+  border-radius: 10px;
+  transition: all 0.15s;
+  margin: 4px;
+}
+
+.date {margin: 0px;}
+
+.search-button, .date, select {cursor: pointer;}
+
+.search-button {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  background-color: rgb(16,52,166);
+  color: white;
+  border: none;
+}
+
+.search-button:hover {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  color: rgb(16,52,166);
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(16,52,166);
+}
+
+.search-button:active {
+  background-color: rgba(45,35,100,0.4);
+}
+
+.date-div {
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+  margin: 4px;
+}
